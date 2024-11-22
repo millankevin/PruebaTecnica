@@ -1,0 +1,60 @@
+# Compiled files
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Logs
+*.log
+
+# Temporary files
+*.vspscc
+.vs/
+.idea/
+.vscode/
+_*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build directories
+!src/**/bin/
+!src/**/obj/
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+
+# Packages
+*.nupkg
+*.snupkg
+
+# DotNetTool artifacts
+.dotnet_tool_manifest.json
+.local_tools/
+
+# File-based databases
+*.mdf
+*.ldf
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+.coverage*
+
+# EF Core Migrations
+Migrations/
+
+# Application configuration files
+appsettings.json
+appsettings.*.json
